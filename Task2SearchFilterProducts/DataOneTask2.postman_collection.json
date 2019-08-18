@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "673cb423-c7f6-4362-b7c4-b9452014a8a1",
+		"name": "DataOneTask2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:9091/task2/groupByBrand",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:9091/task2/groupByBrand",
+					"host": [
+						"localhost"
+					],
+					"port": "9091",
+					"path": [
+						"task2",
+						"groupByBrand"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

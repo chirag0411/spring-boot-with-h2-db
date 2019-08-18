@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "38f9c46c-e69e-4353-a6ad-1be4327d4257",
+		"name": "DataOneTask1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:9090/task1/alpha",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"fruit\": \"apple\",\n    \"animal\": \"zebra\",\n    \"city-list\": [\n        \"sunnyvale\",\n        \"sanjose\"\n    ]\n}"
+				},
+				"url": {
+					"raw": "localhost:9090/task1/alpha",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"task1",
+						"alpha"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9090/task1/flatten",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"fruit\":\"apple\",\n  \"animal\":\"zebra\",\n  \"city-list\":[\"sunnyvale\",\"sanjose\"]\n}"
+				},
+				"url": {
+					"raw": "localhost:9090/task1/flatten",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"task1",
+						"flatten"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9090/task1/status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:9090/task1/status",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"task1",
+						"status"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

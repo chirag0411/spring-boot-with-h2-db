@@ -1,0 +1,16 @@
+insert into product (id, name, price, brand, on_sale) VALUES (1, 'Product A', 1110.50, 'Brand A', true);
+insert into product (id, name, price, brand, on_sale) VALUES (2, 'Product B', 2111.50, 'Brand A', false);
+insert into product (id, name, price, brand, on_sale) VALUES (3, 'Product C', 1312.50, 'Brand A', true);
+insert into product (id, name, price, brand, on_sale) VALUES (4, 'Product D', 4113.50, 'Brand A', false);
+insert into product (id, name, price, brand, on_sale) VALUES (5, 'Product E', 8210.50, 'Brand B', true);
+insert into product (id, name, price, brand, on_sale) VALUES (6, 'Product F', 2811.50, 'Brand B', false);
+insert into product (id, name, price, brand, on_sale) VALUES (7, 'Product G', 2182.50, 'Brand B', true);
+insert into product (id, name, price, brand, on_sale) VALUES (8, 'Product H', 2136.50, 'Brand B', false);
+insert into product (id, name, price, brand, on_sale) VALUES (9, 'Product I', 1150.50, 'Brand C', true);
+insert into product (id, name, price, brand, on_sale) VALUES (10, 'Product J', 2511.50, 'Brand C', false);
+insert into product (id, name, price, brand, on_sale) VALUES (11, 'Product K', 3512.50, 'Brand C', true);
+insert into product (id, name, price, brand, on_sale) VALUES (12, 'Product L', 4143.50, 'Brand C', false);
+insert into product (id, name, price, brand, on_sale) VALUES (13, 'Product M', 1140.50, 'Brand D', true);
+insert into product (id, name, price, brand, on_sale) VALUES (14, 'Product N', 2411.50, 'Brand D', false);
+insert into product (id, name, price, brand, on_sale) VALUES (15, 'Product O', 3412.50, 'Brand D', true);
+insert into product (id, name, price, brand, on_sale) VALUES (16, 'Product P', 4413.50, 'Brand D', false);
